@@ -1,0 +1,129 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-family: sans-serif, arial;
+font-size: 16px;
+background:#F4E2FE;
+
+}
+.contenedor{
+width: 1000px;
+margin: 20px auto;
+text-align: justify;
+padding: 40px;
+}
+
+header{
+background: #FDEDEC;
+}
+
+header nav{
+width: 100%;
+}
+
+header nav ul{
+width: 100%;
+overflow: hidden;
+}
+
+header nav ul li{
+float: left;
+list-style: none;
+}
+
+header nav ul li a{
+text-decoration: none;
+display: inline-block;
+padding: 15px 20px;
+color: #7FB3D5;
+}
+
+header nav ul li a:hover{
+background: #808B96;
+color:#F2F3F4;
+}
+
+.main {
+width: 680px;
+background: white;
+float: left;
+padding: 40px;
+}
+
+.main.imagen{
+	width: 100%;
+}
+
+.main .imagen img{
+width: 100%;
+}
+
+.main.post{
+padding: 40px;
+}
+
+.main .post h2{
+color:black;
+margin-bottom: 20px;
+}
+
+.main .post p{
+color: black;
+line-height: 27px;
+margin-bottom: 20px;
+}
+aside{
+width: 200px;
+padding: 20px;
+background: mediumpurple;
+color: white;
+overflow: hidden;
+}
+
+aside .widget{
+	margin-bottom: 20px;
+}
+
+aside .widget h2{
+	border-bottom: 1px solid white;
+	color: white;
+	margin-bottom: 10px;
+}
+
+aside .widget ul{
+	list-style: none;
+}
+
+aside .widget ul li{
+	border-bottom:  1px solid white;
+	padding: 10px 0px;
+}
+aside .widget ul li a{
+	text-decoration: none;
+	color: honeydew;
+}
+aside .widget ul li a:hover {
+	background:gray ;
+	color: white;
+}
+aside .widget p{
+	line-height: 27px;
+	text-align: center;
+}
+
+footer{
+	width: 680px;
+	padding:40px;
+	text-align:center;
+	background:mediumpurple ;
+	color: white;
+	overflow: hidden;
+}
+
+h1{
+	background:#bfabed;
+	color:white ;
+	text-align: center;
+}
